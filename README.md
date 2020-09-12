@@ -9,5 +9,5 @@ Notify and Control train model inceptionv3 use Linebot
    
 ## Features
    - Notify result train model every epoch by Linebot
-   - You can Start and Stop train model by Linebot
-   - You can change epoch,activate,image size and batch size by Linebot
+   - Start and Stop train model by Linebot
+   - Change epoch,activate,image size and batch size by Linebot
