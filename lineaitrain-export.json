@@ -1,0 +1,18 @@
+{
+  "optimize" : {
+    "batchsize" : 64,
+    "lr" : 0.01,
+    "numepoch" : 5,
+    "opt" : "SGD"
+  },
+  "runtime" : [ "start" ],
+  "status" : [ 1 ],
+  "statusOPT" : [ "unset" ],
+  "users" : {
+    "accuracy" : [ 0.843500018119812 ],
+    "epoch" : 0,
+    "loss" : [ 2.02474308013916 ],
+    "val_accuracy" : [ 0.9639999866485596 ],
+    "val_loss" : [ 0.2615285813808441 ]
+  }
+}
