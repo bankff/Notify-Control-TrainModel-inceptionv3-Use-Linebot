@@ -16,13 +16,15 @@ Notify and Control train model inceptionv3 use Linebot
    - index.js
    
    `Line API`  
-    ```const config = {
+   ```
+   const config = {
            channelAccessToken: '',
-           channelSecret: ''}; ```
+           channelSecret: ''}
+   ```
            
    `Firebase`
-      ```
-       var firebaseConfig = {
+   ```
+   var firebaseConfig = {
            apiKey: "",
            authDomain: "",
            databaseURL: "",
@@ -31,8 +33,8 @@ Notify and Control train model inceptionv3 use Linebot
            messagingSenderId: "",
            appId: "",
            measurementId: ""
-         };
-      ```
+         }
+   ```
    - main.py
    
    ```
