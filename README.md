@@ -18,12 +18,11 @@ Notify and Control train model inceptionv3 use Linebot
    `Line API`  
     ```const config = {
            channelAccessToken: '',
-           channelSecret: ''
-         }; ```
-         
+           channelSecret: ''}; ```
+           
    `Firebase`
       ```
-         var firebaseConfig = {
+       var firebaseConfig = {
            apiKey: "",
            authDomain: "",
            databaseURL: "",
