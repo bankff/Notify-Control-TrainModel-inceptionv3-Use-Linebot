@@ -1,6 +1,6 @@
 # Notify-Control-TrainModel-inceptionv3-Use-Linebot
 Notify and Control train model inceptionv3 use Linebot 
-This Demo train Dog-Cat use model inceptionv3 CNN 
+.This Demo train Dog-Cat use model inceptionv3 CNN 
 
 ## Preprocess
    - NodeJS
