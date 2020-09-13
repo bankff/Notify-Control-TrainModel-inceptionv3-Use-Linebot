@@ -15,7 +15,10 @@ Notify and Control train model inceptionv3 use Linebot
 ## Settting
    - index.js
    
-   `Line API`  
+   `LINE Messaging API SDK for nodejs`   
+    
+   ``https://line.github.io/line-bot-sdk-nodejs``
+      
    ```
    const config = {
            channelAccessToken: '',
@@ -23,6 +26,8 @@ Notify and Control train model inceptionv3 use Linebot
    ```
            
    `Firebase`
+   
+   `Can see structure database on file lineaitrain-export.json`
    ```
    var firebaseConfig = {
            apiKey: "",
