@@ -16,15 +16,18 @@ Notify and Control train model inceptionv3 use Linebot
    - index.js
    
    `Line API`
-
-         ``const config = {
+   
+         ```
+         const config = {
            channelAccessToken: '',
            channelSecret: ''
-         };``
+         };
+         ```
    
    `Firebase`
-      
-         ``var firebaseConfig = {
+   
+      ```
+         var firebaseConfig = {
            apiKey: "",
            authDomain: "",
            databaseURL: "",
@@ -33,15 +36,19 @@ Notify and Control train model inceptionv3 use Linebot
            messagingSenderId: "",
            appId: "",
            measurementId: ""
-         };``
-   
+         };
+      ```
    - main.py
    
-   ``cred = credentials.Certificate("")``
+   ```
+   cred = credentials.Certificate("")
+   ```
    
-   ``firebase_admin.initialize_app(cred, {
+   ```
+   firebase_admin.initialize_app(cred, {
     'databaseURL' : ''
-   })``
+   })
+   ```
    
    ## Run
    - Deploy NodeJS to server 
