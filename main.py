@@ -55,6 +55,7 @@ def main():
           ref5.update({
               '0':'unset'
           })
+          checkpoint = ModelCheckpoint("/weights-adamv2-{epoch:02d}.h5", monitor='val_accuracy', verbose=2, save_best_only=True, save_weights_only=False, mode='max')
       print("start")
       epoch+=1
       print(epoch)
@@ -85,6 +86,7 @@ def main():
           ref3.update({
               '0':'stop'
           })
+          print("stop")
           break
 
 if __name__ == "__main__":
